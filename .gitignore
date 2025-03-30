@@ -1,37 +1,58 @@
-# Katalog z danymi wyjściowymi
+# Katalogi z danymi
 /output/
-
-# Katalog z logami
 /logs/
 
-# Pliki środowiskowe i konfiguracyjne
-.env
-*.env.local
-*.env.*.local
-
-# Pliki IDE
-.idea/
-.vscode/
-*.swp
-*.swo
+# Środowiska wirtualne Python
+venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+virtualenv/
+env/
+pythonenv*
 
 # Pliki Pythona
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
 
-# Pliki instalacyjne i dystrybucyjne
-*.egg-info/
-*.egg
-dist/
+# Pliki instalacyjne
 build/
-pip-log.txt
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Cache i pliki tymczasowe
-*.tmp
-*.bak
-*.cache
+# Pliki środowiskowe i konfiguracyjne
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
 
-# Pliki specyficzne dla systemu
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Systemowe
 .DS_Store
 Thumbs.db
