@@ -1,35 +1,37 @@
-# Python
+# Katalog z danymi wyjściowymi
+/output/
+
+# Katalog z logami
+/logs/
+
+# Pliki środowiskowe i konfiguracyjne
+.env
+*.env.local
+*.env.*.local
+
+# Pliki IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Pliki Pythona
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+
+# Pliki instalacyjne i dystrybucyjne
 *.egg-info/
-.installed.cfg
 *.egg
-MANIFEST
+dist/
+build/
+pip-log.txt
 
-# PyCharm
-.idea/
-.idea/*
-*.iml
-*.ipr
-*.iws
+# Cache i pliki tymczasowe
+*.tmp
+*.bak
+*.cache
+
+# Pliki specyficzne dla systemu
 .DS_Store
-
-# Virtual Environment
-venv/
-env/
-.venv/
+Thumbs.db
